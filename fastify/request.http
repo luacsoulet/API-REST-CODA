@@ -1,0 +1,10 @@
+GET http://localhost:3000/posts
+
+###
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+  "title": "New post",
+  "content": "This is the content of the new post"
+}
