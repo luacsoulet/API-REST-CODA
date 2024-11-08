@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
+    "postinstall": "npx prisma db push && npx prisma generate",
+    "start": "node app.js",
+    "dev": "node app.js",
     "test": "vitest"
   },
   "author": "",
